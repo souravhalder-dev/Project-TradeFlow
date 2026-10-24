@@ -13,7 +13,7 @@
 
 ---
 
-## 🏗 System Architecture & Technology Stack
+##  System Architecture & Technology Stack
 
 ```
                           ┌────────────────────────────┐
@@ -51,7 +51,7 @@
 
 ---
 
-## 👥 Supported Roles & Demo Personas
+##  Supported Roles & Demo Personas
 
 TradeFlow provides pre-seeded accounts and an **Instant Demo Role Switcher** available on every page:
 
@@ -63,7 +63,7 @@ TradeFlow provides pre-seeded accounts and an **Instant Demo Role Switcher** ava
 
 ---
 
-## 🚀 Quick Start & Local Setup
+##  Quick Start & Local Setup
 
 ### 1. Prerequisites
 - Node.js (v18.x, v20.x, or v22+)
@@ -109,7 +109,7 @@ Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Run Unit & Integration Tests (Vitest)
 ```bash
@@ -129,7 +129,7 @@ npm run build
 
 ---
 
-## 📦 Directory Structure
+##  Directory Structure
 
 ```
 src/
@@ -159,7 +159,7 @@ src/
 
 ---
 
-## 🔒 Security Best Practices Implemented
+##  Security Best Practices Implemented
 
 - **No Client Price Trust:** All line item prices and totals are computed strictly on the server against current database price tiers.
 - **Atomic Stock Reservation:** Orders decrement available inventory and increment reserved inventory in a single ACID database transaction.
@@ -169,5 +169,5 @@ src/
 
 ---
 
-## 📄 License
+##  License
 This project is open-source and available under the MIT License.
